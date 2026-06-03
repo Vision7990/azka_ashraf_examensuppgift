@@ -1,3 +1,5 @@
+alert("Javascipt fungerar!");
+
 let senaste =
 document.getElementById("senaste");
 
