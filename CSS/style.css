@@ -18,5 +18,10 @@ body {
     background-color:white;
     margin:3px;
     transition:0.2s;
+}
 
+bild {
+    width: 400px;
+    display: none;
+    margin-top: 10px;
 }
