@@ -18,19 +18,21 @@ h1 {
 }
 
 .key {
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 65px;
     border:2px solid black;
     display:inline-block;
     line-height:60px;
     font-size:25px;
-    background-color:white;
+    background-color: #333;
+    color: white;
     margin:3px;
     transition:0.2s;
 }
 
 .tryckt {
     background-color: yellow;
+    color: black;
     transform: scale(1.1);
 }
 #bild {
