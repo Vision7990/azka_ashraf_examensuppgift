@@ -48,6 +48,10 @@ document.addEventListener("keydown", function(event){
         bild.style.display =
         "block";
 
+        setTimeout(function() {
+            bild.style.display = "none";
+        }, 3000);
+
     }
 
     if(event.key ==" ") {
