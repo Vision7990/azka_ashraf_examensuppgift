@@ -36,7 +36,7 @@ document.addEventListener("keydown", function(event){
 
         setTimeout(function() {
             bild.style.display = "none";
-        }, 3000);
+        }, 2000);
 
     }
 
@@ -50,7 +50,7 @@ document.addEventListener("keydown", function(event){
 
         setTimeout(function() {
             bild.style.display = "none";
-        }, 3000);
+        }, 2000);
 
     }
 
