@@ -46,6 +46,13 @@ document.addEventListener("keydown", function(event){
 
     }
 
+    if(event.key ==" ") {
+        let space =
+        document.getElementById("space");
+
+        space.classList.add("trycket");
+    }
+
 });
 
 
@@ -64,5 +71,13 @@ document.addEventListener("keyup", function(event){
         knapp.classList.remove("tryckt");
 
     }
+
+    if(event.key == " ") {
+        let space =
+        document.getElementById("space");
+
+        space.classList.remove("trycket");
+    }
+
 
 });
