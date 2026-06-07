@@ -58,8 +58,61 @@ document.addEventListener("keydown", function(event){
         let space =
         document.getElementById("space");
 
-        space.classList.add("trycket");
+        space.classList.add("tryckt");
     }
+
+    let bokstav =
+    event.key.toLowerCase();
+
+    if(event.key == "Tab"){
+        bokstav = "tab";
+    }
+    
+    
+    if(event.key == "CapsLock"){
+        bokstav = "capslock";
+    }
+    
+    
+    if(event.key == "Shift"){
+        bokstav = "shift";
+    }
+    
+    
+    if(event.key == "Enter"){
+        bokstav = "enter";
+    }
+    
+    
+    if(event.key == "Control"){
+        bokstav = "control";
+    }
+    
+    
+    if(event.key == "Alt"){
+        bokstav = "alt";
+    }
+    
+    
+    if(event.key == "ArrowLeft"){
+        bokstav = "arrowleft";
+    }
+    
+    
+    if(event.key == "ArrowRight"){
+        bokstav = "arrowright";
+    }
+    
+    
+    if(event.key == "ArrowUp"){
+        bokstav = "arrowup";
+    }
+    
+    
+    if(event.key == "ArrowDown"){
+        bokstav = "arrowdown";
+    }
+    
 
 });
 
@@ -84,8 +137,59 @@ document.addEventListener("keyup", function(event){
         let space =
         document.getElementById("space");
 
-        space.classList.remove("trycket");
+        space.classList.remove("tryckt");
     }
 
+    let bokstav =
+    event.key.toLowerCase();
 
+    if(event.key == "Tab"){
+        bokstav = "tab";
+    }
+    
+    
+    if(event.key == "CapsLock"){
+        bokstav = "capslock";
+    }
+    
+    
+    if(event.key == "Shift"){
+        bokstav = "shift";
+    }
+    
+    
+    if(event.key == "Enter"){
+        bokstav = "enter";
+    }
+    
+    
+    if(event.key == "Control"){
+        bokstav = "control";
+    }
+    
+    
+    if(event.key == "Alt"){
+        bokstav = "alt";
+    }
+    
+    
+    if(event.key == "ArrowLeft"){
+        bokstav = "arrowleft";
+    }
+    
+    
+    if(event.key == "ArrowRight"){
+        bokstav = "arrowright";
+    }
+    
+    
+    if(event.key == "ArrowUp"){
+        bokstav = "arrowup";
+    }
+    
+    
+    if(event.key == "ArrowDown"){
+        bokstav = "arrowdown";
+    }
+    
 });
