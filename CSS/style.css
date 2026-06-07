@@ -31,11 +31,12 @@ body {
     display:inline-block;
     line-height:65px;
     border-radius: 6px;
-    background: #1f1f1f;
+    background: #202020;
     color: white;
-    border:1px solid #555;
-    margin: 2px;
+    border:1px solid #444;
+    margin: 3px;
     transition:0.2s;
+    box-shadow: 0px 2px 5px black;
 }
 
 .tryckt {
