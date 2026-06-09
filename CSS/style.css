@@ -70,18 +70,20 @@ body {
 }
 
 .enter{
-    width: 110px;
+    width: 100px;
 }
 
 .liten {
-    width: 60px;
+    width: 50px;
+    min-width: 50px;
 }
 
 .pilblock{
     display: grid;
     grid-template-columns: 50px 50px 50px;
     grid-template-rows: 60px 60px;
-    gap: 5px;
+    gap: 3px;
+    margin-left: 10px;
 }
 
 #bild {
