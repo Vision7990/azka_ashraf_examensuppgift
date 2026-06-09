@@ -24,10 +24,13 @@ document.addEventListener("keydown", function(event){
 
 
     if(event.key == "Escape"){
-    bokstav = "esc";
+        bokstav = "esc";
     }
 
     // Specialtangenter
+    if(event.key == "Backspace"){
+        bokstav = "backspace"
+    }
 
     if(event.key == "Tab"){
         bokstav = "tab";
@@ -183,9 +186,13 @@ document.addEventListener("keyup", function(event){
         }
     
     
-        if(event.key == "Escape"){
+    if(event.key == "Escape"){
         bokstav = "esc";
-        }
+    }
+
+    if(event.key == "Backspace"){
+        bokstav = "backspace"
+    }
 
     if(event.key == "Tab"){
         bokstav = "tab";
