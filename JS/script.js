@@ -22,7 +22,23 @@ document.addEventListener("keydown", function(event){
     bokstav = event.key.toLowerCase();
     }
 
+    if(event.key === "Fn"){
+        bokstav = "fn";
+    }
+    
+    if(event.key === "½"){
+        bokstav = "half";
+    }
+    
+    if(event.key === "Dead"){
+        bokstav = "caret";
+    }
+    
+    if(event.key === "PageUp"){
+        bokstav = "pgup";
+    }
 
+    
     if(event.key == "Escape"){
         bokstav = "esc";
     }
@@ -195,7 +211,23 @@ document.addEventListener("keyup", function(event){
 
     if(event.key.startsWith("F")){
         bokstav = event.key.toLowerCase();
-        }
+    }
+    
+    if(event.key === "Fn"){
+        bokstav = "fn";
+    }
+    
+    if(event.key === "½"){
+        bokstav = "half";
+    }
+    
+    if(event.key === "Dead"){
+        bokstav = "caret";
+    }
+    
+    if(event.key === "PageUp"){
+        bokstav = "pgup";
+    }
     
     
     if(event.key == "Escape"){
@@ -213,7 +245,7 @@ document.addEventListener("keyup", function(event){
     if(event.key == "End"){
         bokstav = "end";
     }
-    
+
     if(event.key == "Backspace"){
         bokstav = "backspace";
     }
