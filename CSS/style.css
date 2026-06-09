@@ -80,6 +80,12 @@ body {
     width: 120px;
 }
 
+#delete, 
+#home,
+#end{
+    width: 70px;
+}
+
 .liten {
     width: 55px;
 }
