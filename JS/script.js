@@ -36,6 +36,19 @@ document.addEventListener("keydown", function(event){
     if(event.key === "Fn"){
         bokstav = "fn";
     }
+
+    if(event.key === ","){
+        bokstav = "comma";
+    }
+    
+    if(event.key === ":"){
+        bokstav = "colon";
+    }
+    
+    if(event.key === "-"){
+        bokstav = "minus";
+    }
+    
     
     if(event.key === "½"){
         bokstav = "half";
@@ -227,6 +240,19 @@ document.addEventListener("keyup", function(event){
     if(event.key === "Fn"){
         bokstav = "fn";
     }
+
+    if(event.key === ","){
+        bokstav = "comma";
+    }
+    
+    if(event.key === ":"){
+        bokstav = "colon";
+    }
+    
+    if(event.key === "-"){
+        bokstav = "minus";
+    }
+    
     
     if(event.key === "½"){
         bokstav = "half";
