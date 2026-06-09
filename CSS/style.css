@@ -18,11 +18,11 @@ body {
 }
 
 .rad2 {
-    margin-left: 35px;
+    margin-left: 50px;
 }
 
 .rad3 {
-    margin-left: 70px;
+    margin-left: 95px;
 }
 
 .key {
@@ -47,7 +47,7 @@ body {
 }
 
 .space {
-    width: 500px;
+    width: 420px;
     height: 65px;
     display: inline-block;
     line-height: 65px;
@@ -71,4 +71,8 @@ body {
 
 .bred {
     width: 120px;
+}
+
+.liten {
+    width: 55px;
 }
