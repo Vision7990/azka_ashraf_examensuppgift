@@ -70,7 +70,9 @@ body {
 }
 
 .enter{
-    width: 110px;
+    width: 90px;
+    height: 128px;
+    line-height: 128px;
 }
 
 .liten {
