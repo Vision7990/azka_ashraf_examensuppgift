@@ -27,11 +27,7 @@ document.addEventListener("keydown", function(event){
     bokstav = "esc";
     }
 
-
-
     // Specialtangenter
-
-
 
     if(event.key == "Tab"){
         bokstav = "tab";
@@ -173,8 +169,6 @@ document.addEventListener("keydown", function(event){
 
 
 
-
-
 // När tangent släpps
 
 
@@ -184,6 +178,14 @@ document.addEventListener("keyup", function(event){
     let bokstav =
     event.key.toLowerCase();
 
+    if(event.key.startsWith("F")){
+        bokstav = event.key.toLowerCase();
+        }
+    
+    
+        if(event.key == "Escape"){
+        bokstav = "esc";
+        }
 
     if(event.key == "Tab"){
         bokstav = "tab";
