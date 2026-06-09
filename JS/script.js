@@ -17,8 +17,20 @@ document.addEventListener("keydown", function(event){
     let bokstav =
     event.key.toLowerCase();
 
+    
+    if(event.key.startsWith("F")){
+    bokstav = event.key.toLowerCase();
+    }
+
+
+    if(event.key == "Escape"){
+    bokstav = "esc";
+    }
+
+
 
     // Specialtangenter
+
 
 
     if(event.key == "Tab"){
