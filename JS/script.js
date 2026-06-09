@@ -27,9 +27,21 @@ document.addEventListener("keydown", function(event){
         bokstav = "esc";
     }
 
+    if(event.key == "Delete"){
+        bokstav = "delete";
+    }
+
+    if(event.key == "Home"){
+        bokstav = "home";
+    }
+
+    if(event.key == "End"){
+        bokstav = "end";
+    }
+
     // Specialtangenter
     if(event.key == "Backspace"){
-        bokstav = "backspace"
+        bokstav = "backspace";
     }
 
     if(event.key == "Tab"){
@@ -190,8 +202,20 @@ document.addEventListener("keyup", function(event){
         bokstav = "esc";
     }
 
+    if(event.key == "Delete"){
+        bokstav = "delete";
+    }
+
+    if(event.key == "Home"){
+        bokstav = "home";
+    }
+
+    if(event.key == "End"){
+        bokstav = "end";
+    }
+    
     if(event.key == "Backspace"){
-        bokstav = "backspace"
+        bokstav = "backspace";
     }
 
     if(event.key == "Tab"){
