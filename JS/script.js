@@ -5,6 +5,17 @@ document.getElementById("senaste");
 let bild =
 document.getElementById("bild");
 
+let fn = document.getElementById("fn");
+
+fn.addEventListener("click", function(){
+    fn.classList.add("tryckt");
+
+    setTimeout(()=>{
+        fn.classList.remove("tryckt");
+    },200);
+});
+
+
 
 
 
